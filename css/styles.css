@@ -58,7 +58,7 @@ body {
   text-decoration: none;
   color: #222222;
 }
-.logo-text:hover,.sitenav-link:hover,.button-link:hover {
+.logo-text:hover {
   color: #DE2E54;
 }
 .sitenav {
@@ -87,6 +87,10 @@ body {
   line-height: 150%;
   color: #222222;
 }
+.sitenav-link:hover {
+  color: #DE2E54;
+
+}
 .sitenav-list {
   display: flex;
 }
@@ -107,9 +111,6 @@ body {
 }
 .button:hover {
   background: #FFFFFF;
-  border: 2px solid #DE2E54;
-  box-sizing: border-box;
-  border-radius: 8px;
 }
 .button-link {
   position: static;
@@ -127,6 +128,9 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   text-decoration: none;
+}
+.button-link:hover {
+  color: #DE2E54;
 }
 /* HERO */
 .hero {
@@ -182,15 +186,18 @@ body {
   left: 3px;
   top: 241px;
 }
+.hero-button:hover {
+  background: rgba(222, 46, 84, 0.8);
+
+}
+.hero-button-link:hover {
+  color: #FFFFFF;
+}
 /* SERVICES */
 .services {
   width: 1440px;
   height: 1486px;
   background: #FFFFFF;
-  /* display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center; */
 }
 .services-heading {
   position: absolute;
