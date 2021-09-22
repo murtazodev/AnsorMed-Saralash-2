@@ -58,6 +58,9 @@ body {
   text-decoration: none;
   color: #222222;
 }
+.logo-text:hover,.sitenav-link:hover,.button-link:hover {
+  color: #DE2E54;
+}
 .sitenav {
   width: 497px;
   height: 21px;
@@ -98,6 +101,12 @@ body {
   left: 911px;
   top: 1.47px;
   background: #DE2E54;
+  border: 2px solid #DE2E54;
+  box-sizing: border-box;
+  border-radius: 8px;
+}
+.button:hover {
+  background: #FFFFFF;
   border: 2px solid #DE2E54;
   box-sizing: border-box;
   border-radius: 8px;
@@ -289,6 +298,9 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+}
+.phone-call:hover,.telegram-call:hover {
+  background: #DE2E54;
 }
 .phone-call-link {
   width: 190px;
