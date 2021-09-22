@@ -57,6 +57,8 @@ body {
   line-height: 33px;
   text-decoration: none;
   color: #222222;
+  transition: color 0.5s ease;
+
 }
 .logo-text:hover {
   color: #DE2E54;
@@ -86,10 +88,10 @@ body {
   font-size: 14px;
   line-height: 150%;
   color: #222222;
+  transition: color 0.5s ease;
 }
 .sitenav-link:hover {
   color: #DE2E54;
-
 }
 .sitenav-list {
   display: flex;
@@ -108,6 +110,7 @@ body {
   border: 2px solid #DE2E54;
   box-sizing: border-box;
   border-radius: 8px;
+  transition: background 0.5s ease;
 }
 .button:hover {
   background: #FFFFFF;
@@ -128,6 +131,7 @@ body {
   text-transform: uppercase;
   color: #FFFFFF;
   text-decoration: none;
+  transition: color 0.5s ease;
 }
 .button-link:hover {
   color: #DE2E54;
@@ -185,10 +189,14 @@ body {
   position: absolute;
   left: 3px;
   top: 241px;
+  transition: background 0.5s ease;
 }
 .hero-button:hover {
   background: rgba(222, 46, 84, 0.8);
 
+}
+.hero-button-link {
+  transition: color 0.5s ease;
 }
 .hero-button-link:hover {
   color: #FFFFFF;
@@ -305,8 +313,9 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  transition: background 0.5s ease;
 }
-.phone-call:hover,.telegram-call:hover {
+.phone-call:hover {
   background: #DE2E54;
 }
 .phone-call-link {
@@ -335,8 +344,11 @@ body {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  /* margin-top: 60px;
-  margin-left: 900px; */
+  transition: background 0.5s ease;
+
+}
+.telegram-call:hover {
+  background: #DE2E54;
 }
 .telegram-call-link {
   width: 220px;
