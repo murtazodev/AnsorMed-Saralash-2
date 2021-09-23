@@ -289,14 +289,13 @@ body {
   width: 600px;
   font-style: normal;
   font-weight: normal;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 150%;
   color: #444444;
   font-family: 'Open Sans', "Arial",sans-serif;
 }
 .services-button {
   position: absolute;
-
   left: 626px;
   top: 1530px;
 }
