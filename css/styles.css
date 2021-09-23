@@ -49,7 +49,7 @@ body {
 }
 .logo-text {
   position: absolute;
-  width: 110px;
+  width: 122px;
   height: 33px;
   left: 230px;
   top: 30px;
@@ -188,7 +188,7 @@ body {
   position: absolute;
   width: 440px;
   height: 110px;
-  left: 0px;
+  left: 1px;
   top: 100px;
   color: #FFFFFF;
   font-weight: normal;
