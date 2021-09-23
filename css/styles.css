@@ -200,7 +200,7 @@ body {
   left: 3px;
   top: 241px;
   transition: background 0.5s ease,
-    opacity 5.5s ease;
+    opacity 0.5s ease;
 }
 .hero-button:hover {
   background: rgba(222, 46, 84, 0.8);
