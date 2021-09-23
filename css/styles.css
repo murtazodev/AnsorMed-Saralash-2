@@ -117,7 +117,7 @@ body {
   box-sizing: border-box;
   border-radius: 8px;
   transition: background 0.5s ease,
-    opacity 0.5s ease;
+    opacity 5.5s ease;
 }
 .button:hover {
   background: #FFFFFF;
@@ -199,17 +199,24 @@ body {
   position: absolute;
   left: 3px;
   top: 241px;
-  transition: background 0.5s ease;
+  transition: background 0.5s ease,
+    opacity 5.5s ease;
 }
 .hero-button:hover {
   background: rgba(222, 46, 84, 0.8);
-
+}
+.hero-button:active {
+  opacity: 0.6;
 }
 .hero-button-link {
-  transition: color 0.5s ease;
+  transition: color 0.5s ease,
+    opacity 0.5s ease;
 }
 .hero-button-link:hover {
   color: #FFFFFF;
+}
+.hero-button-link:active {
+  opacity: 0.6;
 }
 /* SERVICES */
 .services {
@@ -359,7 +366,7 @@ body {
   justify-content: center;
   align-items: center;
   transition: background 0.5s ease,
-    opacity 0.5s ease;
+    opacity 5.5s ease;
 
 }
 .telegram-call:hover {
@@ -380,7 +387,11 @@ body {
   text-decoration: none;
   color: #FFFFFF;
   text-align: center;
+  /* transition: opacity 5.5s ease; */
 }
+/* .telegram-call-link:active {
+  opacity: 0.6;
+} */
 /* SITE-FOOTER */
  .site-footer {
   display: flex;
@@ -411,4 +422,8 @@ body {
 }
 .footer-sitenav-link {
   color: #FFFFFF;
+  transition: opacity 0.5s ease;
+}
+footer-sitenav-link:active {
+  opacity: 0.6;
 }
