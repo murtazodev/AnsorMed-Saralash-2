@@ -1,5 +1,4 @@
 body {
-  font-family: 'Open Sans', "Arial",sans-serif;
   font-family: 'Open Sans Condensed', "Arial",sans-serif;
   position: relative;
   width: 1440px;
@@ -61,6 +60,7 @@ body {
   text-decoration: none;
   color: #222222;
   transition: color 0.5s ease;
+  font-family: 'Open Sans', "Arial",sans-serif;
 }
 .logo-text:hover {
   color: #DE2E54;
@@ -82,7 +82,7 @@ body {
   padding: 0px;
 }
 .sitenav-link {
-  font-family: "Open Sans" sans-serif;
+  font-family: 'Open Sans', "Arial",sans-serif;
   text-decoration: none;
   letter-spacing: 2px;
   text-transform: uppercase;
@@ -132,6 +132,7 @@ body {
   left: 24px;
   top: 12px;
   font-style: normal;
+  font-family: 'Open Sans Condensed', "Arial",sans-serif;
   font-weight: bold;
   font-size: 15px;
   line-height: 150%;
@@ -181,6 +182,7 @@ body {
   color: #FFFFFF;
   font-weight: bold;
   margin: 0px;
+  font-family: 'Open Sans Condensed', "Arial",sans-serif;
 }
 .hero-passage {
   position: absolute;
@@ -194,6 +196,7 @@ body {
   font-size: 18px;
   line-height: 150%;
   margin: 0px;
+  font-family: 'Open Sans', "Arial",sans-serif;
 }
 .hero-button {
   position: absolute;
@@ -231,6 +234,7 @@ body {
   left: 653px;
   top: 650px;
   font-style: normal;
+  font-family: 'Open Sans Condensed', "Arial",sans-serif;
   font-weight: bold;
   font-size: 36px;
   line-height: 120%;
@@ -274,6 +278,7 @@ body {
 .frame1-heading,.frame2-heading,.frame3-heading,.frame4-heading {
   height: 29px;
   font-style: normal;
+  font-family: 'Open Sans Condensed', "Arial",sans-serif;
   font-weight: bold;
   font-size: 24px;
   line-height: 120%;
@@ -287,6 +292,7 @@ body {
   font-size: 16px;
   line-height: 150%;
   color: #444444;
+  font-family: 'Open Sans', "Arial",sans-serif;
 }
 .services-button {
   position: absolute;
@@ -313,6 +319,7 @@ body {
   height: 43px;
   text-decoration: none;
   font-weight: bold;
+  font-family: 'Open Sans Condensed', "Arial",sans-serif;
   font-size: 36px;
   line-height: 120%;
   color: #FFFFFF;
@@ -345,6 +352,7 @@ body {
   text-decoration: none;
   color: #FFFFFF;
   font-style: normal;
+  font-family: 'Open Sans Condensed', "Arial",sans-serif;
   font-weight: bold;
   font-size: 15px;
   line-height: 120%;
@@ -379,6 +387,7 @@ body {
   width: 220px;
   height: 18px;
   font-style: normal;
+  font-family: 'Open Sans Condensed', "Arial",sans-serif;
   font-weight: bold;
   font-size: 15px;
   line-height: 120%;
@@ -387,11 +396,8 @@ body {
   text-decoration: none;
   color: #FFFFFF;
   text-align: center;
-  /* transition: opacity 5.5s ease; */
 }
-/* .telegram-call-link:active {
-  opacity: 0.6;
-} */
+
 /* SITE-FOOTER */
  .site-footer {
   display: flex;
