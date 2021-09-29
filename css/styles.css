@@ -20,7 +20,7 @@ body {
   align-items: center;
 }
 .container {
-  display: flex; */
+  display: flex;
   flex-direction: row;
 
   align-items: center;
@@ -302,7 +302,7 @@ body {
 }
 .services-button {
   position: absolute;
-  left: 626px;
+  left: 526px;
   top: 1350px;
   margin-bottom: 120px;
 }
