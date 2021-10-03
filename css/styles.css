@@ -1,4 +1,9 @@
+* {
+  box-sizing: border-box;
+}
 body {
+  padding: 0;
+  margin: 0;
   height: 2468px;
   width: 100%;
   max-width: 1470px;
@@ -17,8 +22,6 @@ body {
   position: absolute;
   width: 1440px;
   height: 97.94px;
-  /* left: 20px; */
-  top: 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -27,7 +30,6 @@ body {
 .container {
   display: flex;
   flex-direction: row;
-
   align-items: center;
   padding: 0px;
   width: 1100px;
@@ -118,7 +120,7 @@ body {
   left: 911px;
   top: 1.47px;
   margin-left: 114.5px;
-  background: #DE2E54;
+  background:  #DE2E54;
   border: 2px solid #DE2E54;
   box-sizing: border-box;
   border-radius: 8px;
@@ -129,6 +131,7 @@ body {
   background: #FFFFFF;
 }
 .button:active {
+  background: #DE2E54;
   opacity: 0.6;
 }
 .button-link {
@@ -139,11 +142,10 @@ body {
   top: 12px;
   font-style: normal;
   font-family: "Open Sans Condensed", "Arial",sans-serif;
+  text-align: center;
   font-weight: bold;
   font-size: 15px;
   line-height: 150%;
-  display: flex;
-  justify-content: center;
   letter-spacing: 2px;
   text-transform: uppercase;
   color: #FFFFFF;
@@ -152,6 +154,9 @@ body {
 }
 .button-link:hover {
   color: #DE2E54;
+}
+.button-link:active {
+  color: #FFFFFF;
 }
 /* HERO */
 .hero {
@@ -209,18 +214,13 @@ body {
 .hero-button:hover {
   background: rgba(222, 46, 84, 0.8);
 }
-.hero-button:active {
-  opacity: 0.6;
-}
+
 .hero-button-link {
   transition: color 0.5s ease,
     opacity 0.5s ease;
 }
 .hero-button-link:hover {
   color: #FFFFFF;
-}
-.hero-button-link:active {
-  opacity: 0.6;
 }
 /* SERVICES */
 .services {
@@ -310,8 +310,20 @@ body {
   left: 526px;
   top: 1350px;
   margin-bottom: 120px;
+  transition: opacity 0.5s ease;
 }
-
+.services-button:active {
+  opacity: 0.6;
+}
+.services-button-link {
+  transition: color 0.5s ease;
+}
+.services-button-link:hover {
+  color: #DE2E54;
+}
+.services-button-link:active {
+  color: #FFFFFF;
+}
 /* RECTANGLE */
 .rectangle {
   position: absolute;
